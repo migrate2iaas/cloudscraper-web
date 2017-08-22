@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+body, table, form, input, td, th, p, textarea, select {
+  Verdana,Arial, Helvetica, sans-serif;
+}
+
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+text-decoration: none;
+background-color: #cccccc;
+font-size: xx-small;
+color: #cccccc;
+display: none;
+}
+
+#top-panel {
+background: black;
+padding-bottom: 2px;
+}
+
+.logo.hidden {
+ display: none;
+visibility: hidden;
+}
+
+#description {
+padding-left: 22px;
+padding-top: 2px;
+/*
+border-collapse: collapse;
+border: solid 2px #f0f0f0;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+*/
+}
+
+.pane-frame .bigtable tr {
+border: 1px solid #BBB;
+}
+
+#help {
+float: right;
+margin-top: -20px;
+padding-right: 15px;
+}
+
+#side-panel {
+display: none;
+}
+
+
+.pane-header {
+visibility: hidden;
+}
+
+.group-row .pane-header {
+visibility: visible;
+}
+
+.pane.build-name {
+width:40% !important;
+white-space: nowrap;
+}
+
+.pane.build-details {
+width:40% !important;
+}
+
+.pane.build-controls {
+width:20% !important;
+}
+
+
+.build-rss-links {
+visibility: hidden;
+}
+
+#main-panel {
+padding-left: 15px;
+margin-left: 15px;
+}
+
+
+.original#side-panel {
+display: inline;
+}
+
+.original#main-panel {
+position: absolute;
+margin-left: 320px;
+width: 80%;
+}
+
+.tabBar .tab .black a {
+color: black;
+padding-top: 0px;
+padding-left: 0px;
+}
+
+img.icon-red.icon-lg {
+    opacity: 0.8;
+}
+img.icon-blue.icon-lg {
+    opacity: 0.6;
+}
+
+#breadcrumbs {
+background-color: #cccccc;
+display: none;
+}
+
+#searchform {
+    visibility: hidden;
+}
+
+#right-top-nav {
+   padding: 5px;
+}
+
+.top-sticker {
+  display: none;
+}
+
+#main-table {
+margin-top: 8pt;
+background: white !important;
+}
+
+#footer {
+display: none;
+}
+
+body, table, form, input, td, th, p, textarea, select {
+font-size: 11pt;
+}
+
+.bigtable tr {
+border: 4px solid #BBB;
+padding: 3px 4px;
+}
+
+#side-panel {
+background-size: contain;
+}
+
+#main-table {
+background-position: left center;
+}
+
+#executors {
+visibility: hidden;
+}
+
+#setting-leftspace {
+ font-size: 6pt;
+}
+
+
+h2.permalinks-header {
+visibility: hidden;
+}
+
+ul.permalinks-list {
+visibility: hidden;
+}
+
+/* Job parameter screen */
+
+h1 {
+visibility: hidden;
+font-size: 8px;
+}
+
+select[multiple] {
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: bold;
+overflow-y: hidden;
+border-radius: 5px 5px 5px 5px;
+}
+
+.separatorMarker{
+font-size: 16px;
+border-bottom: #000000 solid 1px;
+cursor: pointer;
+padding-bottom: 12px;
+}
+               
+.active {
+border-bottom: #000000 solid 0px;
+}
+
+.minus {
+background:url(img/minus.png) left top; 
+width:25px; 
+height:25px;
+display: block;
+float: left;
+display: none;
+}
+
+.plus {
+background:url(img/plus.png) left top; 
+width:25px; 
+height:25px;
+display: block;
+float: left;
+}
+
+.active .plus {
+display: none;
+}
+.active .minus {
+display: block;
+}
+
+div.behavior-loading {
+width:100%;
+opacity:0.9;
+z-index: 1000;
+padding-top: 15%;
+}
+
+div.behavior-loading:before {
+content:url(img/loading-md.gif);
+}
+
+#jenkins-home-link {
+background: url('img/home-35-35.png'); 
+width:35px; 
+height:35px;
+}
+
+#jenkins-head-icon {
+display:none;
+}
+
+#jenkins-name-icon {
+display:none;
+}
+
+#showDiff {
+display:none;
+}
+
+#jenkins-home-icon {
+visibility:hidden;
+width:35px; 
+height:25px;
+}
+
+/* Job output settings */ 
+table.joboutput_table {
+  width:80%;
+ border: solid 1px #f0f0f0;
+}
+.joboutput_td_col1 {
+ width:45%;
+}
+
+a.setuptask_link {
+    color: black;
+    font-weight: bold;
+    font-size: 9pt;
+    padding: 7px 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    position: relative;
+    border: solid 1px #f0f0f0;
+    border-bottom: none;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+border: solid 1px #f0f0f0;
+border-bottom: none;
+background: #eee;
+color: #000;
+}
+
+a.stop-button-link {
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+    float: right;
+}
+
+
+div.yui-tt {
+display:none;
+}
+div.taskspinner {
+display:inline;
+}
+div.running_task {
+display:inline;
+}
+
+
+.joboutput_log {
+   font-size: 9pt;
+   background-image: url("img/More.png");
+   background-position: 90% 80%;
+   background-repeat: no-repeat;
+   background-size: 24px;
+}
+
+div#description td.joboutput_log {
+   background: none;
+   padding: 10px;
+}
+
+
+.schedule_info {
+   font-size: 9pt;
+   padding-left: 7px;
+}
+
+.schedule_info form {
+   font-size: 9pt;
+   display: inline;
+}
+
+.schedule_info button {
+   font-size: 9pt;
+   padding: 0;
+   margin-left: 10px;
+}
+
+.progress {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    min-height: 16px;
+    background-image: url("img/Hourglass.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.hidden_node_status_output .joboutput_td_col2 {
+   visibility: hidden;
+}
+
+a.link_to_job_dashboard {
+   text-decoration: none;
+}
+
+.more_mark {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+a.full_output_link {
+   margin-bottom: 12px;
+   text-decoration: underline;
+}
+
